@@ -94,7 +94,7 @@ export default {
     mounted() {
         try {
             const ros = new ROSLIB.Ros({
-              url: "ws://localhost:9090"
+              url: "ws://192.168.44.13:9090"
             });
 
             const listener = new ROSLIB.Topic({

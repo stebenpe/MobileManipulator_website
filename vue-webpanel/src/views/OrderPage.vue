@@ -84,7 +84,7 @@ export default {
   mounted() {
     //conect to ros2 socket
     this.ros = new ROSLIB.Ros({
-      url: "ws://localhost:9090"
+      url: "ws://192.168.44.13:9090"
     });
 
     this.ros.on('connection', () => {
